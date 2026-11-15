@@ -1,0 +1,7 @@
+# Keep movie media in authorized video storage, not in the source repository.
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+/media/

@@ -1,0 +1,11 @@
+{
+  "headers": [{
+    "source": "/(.*)",
+    "headers": [
+      {"key":"Content-Security-Policy","value":"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https: data:; media-src 'self' https:; connect-src 'self' https://api.themoviedb.org; base-uri 'self'; form-action 'self'; frame-ancestors 'none'"},
+      {"key":"X-Content-Type-Options","value":"nosniff"},
+      {"key":"Referrer-Policy","value":"strict-origin-when-cross-origin"},
+      {"key":"Permissions-Policy","value":"camera=(), microphone=(), geolocation=()"}
+    ]
+  }]
+}
